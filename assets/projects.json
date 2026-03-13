@@ -1,0 +1,69 @@
+[
+  {
+    category: "app",
+    projects: [
+      {
+        id: "lmc-maps",
+        name: "LMC Maps",
+        descriptions: {
+          fr: "Une application de navigation efficace et open source.",
+          en: "An efficient and open-source navigation application."
+        },
+        siteUrl: "maps",
+        favicon: "/favicon.ico",
+        status: "active",
+        platforms: ["android"],
+        tags: ["navigation"],
+        version: "3.0.0"
+      },
+      {
+        id: "onyx",
+        name: "Onyx",
+        descriptions: {
+          fr: "Un bot Discord multifonction 100 % gratuit.",
+          en: "A fully free multifunctional Discord bot."
+        },
+        siteUrl: "onyx",
+        favicon: "/favicon.ico",
+        status: "active",
+        platforms: ["discord"],
+        tags: ["bot"],
+        version: "1.0"
+      }
+    ]
+  },
+  {
+    category: "web",
+    projects: [
+      {
+        id: "trainflow",
+        name: "Trainflow",
+        descriptions: {
+          en: "A real-time French train tracking application.",
+          fr: "Une application de suivi des trains français en temps réel."
+        },
+        siteUrl: "trainflow",
+        githubUrl: "https://github.com/the-lmc-group/trainflow",
+        favicon: "/favicon.ico",
+        status: "active",
+        platforms: ["web"],
+        tags: ["train", "map"],
+        version: "1.1"
+      },
+      {
+        id: "lmc-search",
+        name: "LMC Search",
+        descriptions: {
+          en: "A modern and fast search engine that provides additional information.",
+          fr: "Un moteur de recherche moderne et rapide qui fournit des informations supplémentaires."
+        },
+        siteUrl: "https://search.lmcgroup.xyz/",
+        favicon: "https://search.lmcgroup.xyz/favicon.ico",
+        status: "down",
+        platforms: ["web"],
+        tags: ["search-engine"],
+        version: "3.5"
+      }
+    ]
+  }
+]
