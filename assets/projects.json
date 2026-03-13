@@ -57,8 +57,8 @@
           en: "A modern and fast search engine that provides additional information.",
           fr: "Un moteur de recherche moderne et rapide qui fournit des informations supplémentaires."
         },
-        siteUrl: "https://search.lmcgroup.xyz/",
-        favicon: "https://search.lmcgroup.xyz/favicon.ico",
+        siteUrl: "search",
+        favicon: "/favicon.ico",
         status: "down",
         platforms: ["web"],
         tags: ["search-engine"],
