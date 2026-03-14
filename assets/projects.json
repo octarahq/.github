@@ -14,7 +14,10 @@
         status: "active",
         platforms: ["android"],
         tags: ["navigation"],
-        version: "3.0.0"
+        version: "3.0.0",
+        statusUrls: {
+          "Site": "/"
+        }
       },
       {
         id: "onyx",
@@ -28,7 +31,12 @@
         status: "active",
         platforms: ["discord"],
         tags: ["bot"],
-        version: "1.0"
+        version: "1.0",
+        statusUrls: {
+          "API": "/api/ping",
+          "Bot": "/api/ping/bot",
+          "Site": "/"
+        }
       }
     ]
   },
@@ -48,7 +56,11 @@
         status: "active",
         platforms: ["web"],
         tags: ["train", "map"],
-        version: "1.1"
+        version: "1.1",
+        statusUrls: {
+          "Site": "/",
+          "Tiles": "/api/ping"
+        }
       },
       {
         id: "lmc-search",
@@ -62,7 +74,11 @@
         status: "down",
         platforms: ["web"],
         tags: ["search-engine"],
-        version: "3.5"
+        version: "3.5",
+        statusUrls: {
+          "Site": "/",
+          "API": "/api/ping"
+        }
       }
     ]
   }
