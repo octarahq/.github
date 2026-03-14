@@ -33,8 +33,8 @@
         tags: ["bot"],
         version: "1.0",
         statusUrls: {
-          "API": "/api/ping",
-          "Bot": "/api/ping/bot",
+          "API": "/api/status/ping",
+          "Bot": "/api/status/bot",
           "Site": "/"
         }
       }
