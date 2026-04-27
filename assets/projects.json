@@ -44,6 +44,26 @@
     "category": "web",
     "projects": [
       {
+        "id": "orionhosting",
+        "name": "Orion Hosting",
+        "descriptions": {
+          "en": "A Free hosting.",
+          "fr": "Un hebergeur gratuit."
+        },
+        "siteUrl": "https://orionhost.xyz",
+        "githubUrl": "https://github.com/octarahq/orion-hosting",
+        "favicon": "https://github.com/octarahq/orion-hosting/blob/01b91c781029dff5c1b55f6de1ec5890dc9e626a/brand-assets/orion-banner.png?raw=true",
+        "status": "active",
+        "platforms": ["web"],
+        "tags": ["hosting"],
+        "version": "1.0",
+        "statusUrls": {
+          "Site": "https://orionhost.xyz/",
+          "Panel": "https://panel.orionhost.xyz",
+          "Status": "https://status.orionhost.xyz"
+        }
+      },
+      {
         "id": "trainflow",
         "name": "Trainflow",
         "descriptions": {
