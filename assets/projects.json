@@ -3,8 +3,8 @@
     "category": "app",
     "projects": [
       {
-        "id": "lmc-maps",
-        "name": "LMC Maps",
+        "id": "octara-maps",
+        "name": "Octara Maps",
         "descriptions": {
           "fr": "Une application de navigation efficace et open source.",
           "en": "An efficient and open-source navigation application."
